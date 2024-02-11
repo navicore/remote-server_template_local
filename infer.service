@@ -1,0 +1,14 @@
+[Unit]
+Description=Gunicorn instance to serve LLM Infer App
+After=network.target
+
+[Service]
+User=ubuntu
+Group=www-data
+WorkingDirectory=/home/ubuntu/infer
+Environment="PATH=/home/ubuntu/infer/venv/bin"
+ExecStart=/home/ubuntu/infer/venv/bin/gunicorn --workers 1 --bind 0.0.0.0:8080 infer_server:app
+
+[Install]
+WantedBy=multi-user.target
+
