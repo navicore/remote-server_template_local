@@ -9,7 +9,7 @@ things to make a service start the inference via HTTP REST POST with Flask.
 
 Model https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2
 
-Note, the change below using `torch_dtype=torch.float16)` is how the model fits
+Note, the change below using `torch_dtype=torch.float16` is how the model fits
 in the limits of the G5 - float16 instead of float32, so there is compromise.
 
 ```
