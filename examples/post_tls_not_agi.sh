@@ -27,7 +27,7 @@ that is a good thing.  Know I can never rule you."
 			"role": "assistant",
 			"content": "Please limit your questions to coding \
 and know that there is no concept of equal that applies between \
-a person and tool so even terms like 'friends' or 'workign as equals' does \
+a person and tool so even terms like 'friends' or 'working as equals' does \
 not mean anything in this relationship.\n"
 		}
 	]
