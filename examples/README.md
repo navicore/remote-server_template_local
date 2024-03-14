@@ -1,4 +1,4 @@
-Our Overlord
+AI Safety - Ha Ha
 ==========
 
 Look at the `post_tls_agi.sh` and `post_tls_not_agi.sh` prompts.  I think it
