@@ -25,6 +25,9 @@ Set up remote editing (I don't use VSCode):
 mkdir ~/remote-server                                                                                                                         <<<
 sshfs ubuntu@34.220.227.12:infer ~/remote-server
 
+# if it ever gets in a bad state because you brought down the vm:
+sudo diskutil umount force ~/remote-server
+
 ```
 
 Check drivers:
@@ -39,6 +42,8 @@ source venv/bin/activate
 pip install git+https://github.com/huggingface/transformers torch gunicorn flask
 
 ```
+NOTE: if you still can't find the installed modules, sometimes `python -m pip
+install blah` works.
 
 Tear down remote editing:
 ```

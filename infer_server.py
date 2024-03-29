@@ -6,6 +6,7 @@ app = Flask(__name__)
 
 # Assume the device is CUDA; ensure the model and tokenizer are loaded globally
 device = "cuda"
+
 model = AutoModelForCausalLM.from_pretrained("mistralai/Mistral-7B-Instruct-v0.2", torch_dtype=torch.float16).to(device)
 tokenizer = AutoTokenizer.from_pretrained("mistralai/Mistral-7B-Instruct-v0.2")
 
