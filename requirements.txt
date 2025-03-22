@@ -7,7 +7,7 @@ executing==2.0.1
 filelock==3.13.1
 Flask==3.0.2
 fsspec==2024.3.0
-gunicorn==22.0.0
+gunicorn==23.0.0
 huggingface-hub==0.21.4
 idna==3.7
 iniconfig==2.0.0
