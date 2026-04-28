@@ -1,3 +1,8 @@
+<!-- ghmig:moved -->
+> **This repository has moved to [https://git.navicore.tech/navicore/remote-server_template_local](https://git.navicore.tech/navicore/remote-server_template_local).**
+>
+> The GitHub copy is archived and no longer maintained.
+
 Running Mistral 7B on AWS
 ==============
 
